@@ -1,4 +1,4 @@
-# string formatting (print) in Python
+# String formatting (print) in Python
 # 23 Jan 2021
 
 x = 123.45678901
