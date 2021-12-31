@@ -1,6 +1,7 @@
 import math
-class Shape:
 
+class Shape:
+    pass
 
 class Circle:
     def __init__(self, Radius, area):
