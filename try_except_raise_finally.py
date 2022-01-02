@@ -27,7 +27,5 @@ while True:
         print("This is not a number! Try again.")
 
     finally:   # 'finally' will always be executed and be the last to do so.
-            print("I'm done.")
-
-    
-
+        print("I'm done.")
+            
