@@ -51,3 +51,5 @@ if __name__ == '__main__':
     my_metar1 = metar("EGLL")  # London Heathrow Airport
     my_metar2 = metar("LFPG")  # Charles de Gaulle Airport
     my_metar3 = metar("EHAM")  # Amsterdam Schiphol Airport
+
+    input("Press ENTER to exit. . .")
