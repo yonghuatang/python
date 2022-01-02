@@ -1,10 +1,12 @@
 ## args
 
 def person(name, *data):
-    print(name)
+    print(f"Name: {name}")
     print(data)
 
-person('YongHua', 20, 'Kuala Lumpur', '0123456789')
+
+person("Jason", 20, "London","0123456789")
+
 
 ## kwargs
 
@@ -15,4 +17,5 @@ def person(name, **data):
     for i,j in data.items():
         print(i, '==>', j)
 
-person('YongHua', age=20, city='Kuala Lumpur', phone='0123456789')
+
+person("Jason", age=20, city="London", phone="0123456789")
