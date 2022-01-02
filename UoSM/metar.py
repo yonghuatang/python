@@ -47,7 +47,7 @@ class metar:
 
 
 if __name__ == '__main__':
-    # test run examples
-    my_metar1 = metar("WMSA")  # Kuala Lumpur International Airport
-    my_metar2 = metar("EGLL")  # London Heathrow Airport
-    my_metar3 = metar("EGEC")  # London Heathrow Airport
+    # Examples
+    my_metar1 = metar("EGLL")  # London Heathrow Airport
+    my_metar2 = metar("LFPG")  # Charles de Gaulle Airport
+    my_metar3 = metar("EHAM")  # Amsterdam Schiphol Airport
