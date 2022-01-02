@@ -1,16 +1,11 @@
-# class variables
-# Created by YongHua
-
-import time
+# Class variables
 
 class Employee:
-
     percentage = 1.04
-
-    def __init__(self, name, pay):
+    def __init__(self, name, pay):    # constructor
         self.name = name
         self.pay = pay
-        self.details = self.name + ' $' + str(self.pay)
+        self.details = self.name + ' £' + str(self.pay)
 
     def raise_amount(self):
         self.pay = int(self.pay * Employee.percentage)
@@ -24,5 +19,3 @@ print(emp_2.details)
 
 emp_1.raise_amount()
 print(emp_1.pay)
-
-time.sleep(5)
