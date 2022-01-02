@@ -1,6 +1,4 @@
-# Function to evaluate factorial using recursion and memoisation
-
-cache = []
+# Function to evaluate factorial by recursion
 
 def fact(x):
     if x > 2:
@@ -8,6 +6,7 @@ def fact(x):
     else:
         return x
 
+
 if __name__ == "__main__":
     print(fact(10))
-    print(fact(100))
+    print(fact(50))
